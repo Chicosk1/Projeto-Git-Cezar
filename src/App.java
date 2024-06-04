@@ -49,6 +49,10 @@ public class App {
                     System.out.println("O valor da divisão entre 'a' e 'b' é: "+Divisão(a, b));
                     validação = false;
                     break;
+                default:
+                    System.out.println("Operação inválida, tente novamente.");
+                    validação = true;
+                    break;
         }
     }
             System.out.println("Deseja continuar as operações matemáticas?(SIM/NÃO)");
