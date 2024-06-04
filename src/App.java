@@ -7,6 +7,9 @@ public class App {
         return a - b;
     }
     
+    public static double Multiplicação(double a, double b){
+        return a * b;
+    }
     public static void main(String[] args) throws Exception {
         String continuar = "SIM";
         boolean validação = true;
