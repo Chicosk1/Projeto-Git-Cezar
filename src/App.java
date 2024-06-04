@@ -6,9 +6,14 @@ public class App {
     public static double Subtração(double a, double b){
         return a - b;
     }
-    
     public static double Multiplicação(double a, double b){
         return a * b;
+    }
+    public static double Divisão(double a, double b){
+        if (b == 0){
+            throw new ArithmeticException("Divisão por zero não é permitida.");
+        }
+        return a / b;
     }
     public static void main(String[] args) throws Exception {
         String continuar = "SIM";
