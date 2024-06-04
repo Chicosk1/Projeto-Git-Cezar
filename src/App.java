@@ -19,7 +19,7 @@ public class App {
         String continuar = "SIM";
         boolean validação = true;
         do{
-        double a, b;
+        double a = 0, b = 0;
         Scanner sc = new Scanner(System.in);
         while (validação) {
         System.out.println("Informe a operação que você deseja realizar:");
@@ -35,6 +35,10 @@ public class App {
             switch (op) {
                 case 1:
                     System.out.println("O valor da soma entre 'a' e 'b' é: "+Soma(a, b));
+                    validação = false;
+                    break;
+                case 2:
+                    System.out.println("O valor da subtração entre 'a' e 'b' é: "+Subtração(a, b));
                     validação = false;
                     break;
         }
