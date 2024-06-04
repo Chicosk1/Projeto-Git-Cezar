@@ -41,6 +41,10 @@ public class App {
                     System.out.println("O valor da subtração entre 'a' e 'b' é: "+Subtração(a, b));
                     validação = false;
                     break;
+                case 3:
+                    System.out.println("O valor da multiplicação entre 'a' e 'b' é: "+Multiplicação(a, b));
+                    validação = false;
+                    break;
         }
     }
             System.out.println("Deseja continuar as operações matemáticas?(SIM/NÃO)");
