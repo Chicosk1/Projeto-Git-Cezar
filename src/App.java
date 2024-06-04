@@ -3,6 +3,9 @@ public class App {
     public static double Soma(double a, double b){
         return a + b;
     }
+    public static double Subtração(double a, double b){
+        return a - b;
+    }
     
     public static void main(String[] args) throws Exception {
         String continuar = "SIM";
