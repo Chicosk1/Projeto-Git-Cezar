@@ -32,7 +32,13 @@ public class App {
                 System.out.println("Informe o valor de 'b': ");
                 b = sc.nextDouble();
             }
+            switch (op) {
+                case 1:
+                    System.out.println("O valor da soma entre 'a' e 'b' é: "+Soma(a, b));
+                    validação = false;
+                    break;
         }
+    }
             System.out.println("Deseja continuar as operações matemáticas?(SIM/NÃO)");
             continuar = sc.next();
         }while(continuar.equalsIgnoreCase("SIM"));
