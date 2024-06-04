@@ -21,6 +21,7 @@ public class App {
         do{
         double a, b;
         Scanner sc = new Scanner(System.in);
+        while (validação) {
         System.out.println("Informe a operação que você deseja realizar:");
         System.out.println("1 - Soma                2 - Subtração");
         System.out.println("3 - Multiplicação       4 - Divisão");
@@ -31,6 +32,9 @@ public class App {
                 System.out.println("Informe o valor de 'b': ");
                 b = sc.nextDouble();
             }
+        }
+            System.out.println("Deseja continuar as operações matemáticas?(SIM/NÃO)");
+            continuar = sc.next();
         }while(continuar.equalsIgnoreCase("SIM"));
     
     }
